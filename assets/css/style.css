@@ -3,28 +3,27 @@
     padding: 0;
     margin: 0;
 }
-/*background color for the body of the website*/
+
 body {
     background-color: #d9dcd6;
 }
-/*formatting for the header section. Table padding, background color, font family */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/*font size and display block for the h1*/
+/*display inline-block to make the spans populate vertically*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-
+/*adds slight color change for the "SEO" part of the title*/
 header h1 .seo {
     color: #d9dcd6;
 }
-/*formatting for the navigation section of the website*/
+/*make the navigation links float to the right of the website*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +31,11 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*list style type for the navigation list*/
+/*removes default  bullet points*/
 header nav ul {
     list-style-type: none;
 }
-/*formatting for the lines in the navigation list */
+/*have the navigation links populate horizontally from each other */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,11 +45,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/*default font-size for paragraphs*/
+
 p {
     font-size: 16px;
 }
-/*formatting for the background image of the website*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*floats image to the left of the article class*/
+/*floats image to the left of the article class with a 25px margin to the right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*floats image to the right of the article class*/
+/*floats image to the right of the article class with a 25px margin to the left*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/*makesthe main class take up 75% of the screen, inline block display and a 20 pixel margin from the left */
+/*main class uses 75% of the website horizontally*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*makes the aside section float to the right with a 20% width and 100% height, along with other styles such as font and background color of the class */
+/*makes the whole aside section float to the right and take up 20% of the webpage horizontally*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,49 +85,49 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*adds color and font size for the benefit-lead class*/
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*adds color and font size for the benefit-brand class*/
+
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*adds color and font size for the benefit-cost class*/
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*aligns h3 to the center with the benefit-lead class and adds a 10 pixel margin between the h3 and the image*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aligns h3 to the center with the benefit-brand class and adds a 10 pixel margin between the h3 and the image*/
+
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aligns h3 to the center with the benefit-cost class and adds a 10 pixel margin between the h3 and the image*/
+
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*adds a 10 pixel around the image for the benefit-lead class and adds a max width (regardless of how expanded the webpage is)*/
+/*image takes up the whole width of the aside section, no text wrap*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*adds a 10 pixel around the image for the benefit-brand class and adds a max width (regardless of how expanded the webpage is)*/
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*adds a 10 pixel around the image for the benefit-cost class and adds a max width (regardless of how expanded the webpage is)*/
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
